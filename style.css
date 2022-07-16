@@ -1,0 +1,35 @@
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 454px;
+    height: 454px;
+    border: 2px solid var(black);
+    margin: 0px auto;
+  }
+
+
+  .cell {
+    width: 150px;
+    height: 150px;
+    border: 1px solid var(black);
+    background-color: purple;
+    font-size: 100px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  center {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .restart-button {
+    padding: 10px 20px;
+    border: 3px solid var(--blue-border-color);
+    border-radius: 7px;
+    background-color: var(--button-background-color);
+    color: var(--header-font-color);
+    font-size: 50px;
+  }
